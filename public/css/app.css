@@ -1,0 +1,12 @@
+body {
+    color: #222;
+    margin: 0 auto;
+    max-width: 800px;
+}
+article {
+}
+
+article + article {
+    margin-top: 3rem;
+    border-top: 1px solid gray;
+}
